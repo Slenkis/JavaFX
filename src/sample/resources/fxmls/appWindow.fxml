@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<!--fx:controller="AppController"-->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="700.0" style="-fx-background-color: #3b1967;" xmlns="http://javafx.com/javafx/9"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AppController">
+    <children>
+        <AnchorPane layoutY="90.0" prefHeight="330.0" prefWidth="700.0" style="-fx-background-color: #fafafa;"
+                    AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <children>
+                <Label layoutX="285.0" layoutY="14.0" text="Привет!" textFill="#727070">
+                    <font>
+                        <Font size="31.0"/>
+                    </font>
+                </Label>
+                <ImageView fx:id="image_Button" fitHeight="128.0" fitWidth="128.0" layoutX="286.0" layoutY="101.0"
+                           pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="/icons/donut.png"/>
+                    </image>
+                </ImageView>
+            </children>
+        </AnchorPane>
+        <Label layoutX="283.0" layoutY="1.0" text="Subus" textFill="#ffecec">
+            <font>
+                <Font name="Tlwg Mono" size="45.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
