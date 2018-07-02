@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<<<<<<< HEAD
+<?import javafx.scene.control.Button?>
+=======
+>>>>>>> 778c51cc76bde65297b3b946f1346565e83e7e23
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<!--fx:controller="AppController"-->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: #3b1967;" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AppController">
+    <children>
+<<<<<<< HEAD
+        <AnchorPane layoutY="90.0" prefHeight="620.0" prefWidth="900.0" style="-fx-background-color: #fafafa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+            <children>
+            <Label fx:id="label" layoutX="214.0" layoutY="294.0" prefHeight="18.0" prefWidth="72.0" text="\%" />
+            <Button fx:id="button" layoutX="89.0" layoutY="64.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="104.0" text="click" />
+            </children>
+        </AnchorPane>
+=======
+        <AnchorPane layoutY="90.0" prefHeight="620.0" prefWidth="900.0" style="-fx-background-color: #fafafa;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+>>>>>>> 778c51cc76bde65297b3b946f1346565e83e7e23
+        <Label layoutX="433.0" layoutY="14.0" prefHeight="19.0" prefWidth="135.0" text="Subus" textFill="#ffecec">
+            <font>
+                <Font name="SansSerif Regular" size="43.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
